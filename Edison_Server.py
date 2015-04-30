@@ -43,7 +43,7 @@ while True:
                 #         writer.writerow(item)
                 # except:
                 #     print('errors happened while trying to write to the csv file')
-                # # connection.sendall(data)
+                # connection.sendall(data)
             else:
                 connection.close()
     finally:
