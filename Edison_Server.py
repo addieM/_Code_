@@ -43,8 +43,9 @@ while True:
         print('received')
         dirP = os.getcwd()
         if dirP == '/home/root/Coding/Python/':
-            name_File = datetime.datetime.now().time()
+            # name_File = datetime.datetime.now().time()
             os.chdir(savePath)
+
             print savePath
                 # fid = open('test.csv', 'wb')
                 # try:
