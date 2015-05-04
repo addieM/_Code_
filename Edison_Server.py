@@ -55,6 +55,7 @@ while True:
                 # except:
                 #     print('errors happened while trying to write to the csv file')
                 # connection.sendall(data)
+            #new stuff
     finally:
         print >>sys.stderr, 'finished the socket'
 
